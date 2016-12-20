@@ -1,0 +1,42 @@
+
+
+body {
+	margin: 200;
+	padding: 200;
+	width: 90%;
+	text-align: center;
+	background: url("images/cropped.jpg");
+	background-size: cover;
+	color:#4445;
+	background:#FFF5AB;
+	margin:0;
+	padding:0;
+	font-family:Georgia,serif;
+	overflow-x:hidden;
+}
+
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+h1 {
+	font-family: "Verdana", sans-serif;
+	font-weight: heavy;
+	font-size: 22px;
+}
+
+p {font-size="14px";
+}
+
+
+hr {
+  width: 200px;
+}
