@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans+Condensed:300');
+
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	color: darkgrey ;
+	font-size: 48px;
+	line-height: 8px;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	font-kerning: 1.5;
+	color: grey ;
+	font-weight: lighter;
+
+}
+
+h3 {
+	font-family: 'Arima Madurai', sans-serif;
+	font-kerning: 1.5;
+	color: grey ;
+	font-weight: bolder;
+	font-size: 28px;
+
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	width: 90%;
+	text-align: justify-all;
+	background: url("images/cropped.jpg");
+	background-size: cover;
+	margin:2em;
+	padding:20;
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	line-height: 1.5em;
+	overflow-x:hidden;
+}
+
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+
+
+hr {
+  width: 200px;
+}
