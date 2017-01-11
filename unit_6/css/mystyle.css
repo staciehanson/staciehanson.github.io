@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans+Condensed:300');
+
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	color: darkgrey ;
+	font-size: 48px;
+	line-height: 8px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "left";
+    clear: both;
+    height: 0;
+}
+
+a:hover {
+	background-color:#aaa;
+}
+
+h2 {
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	font-kerning: 1.5;
+	color: grey ;
+	font-weight: lighter;
+	padding: 20px;
+
+}
+
+h3 {
+	font-family: 'Arima Madurai', sans-serif;
+	font-kerning: 1.5;
+	color: grey ;
+	font-weight: bolder;
+	font-size: 28px;
+	padding: 30px;
+
+}
+
+header {
+	background-color: #FFF;
+	border: 1x black solid;
+	padding: 40px;
+}
+
+
+img {
+	display:block;
+	margin: 0 auto;
+    opacity: 0.75;
+    filter: alpha(opacity=50);
+}
+
+#inchbeach {
+	display: block;
+	width: 100%;
+	margin: 0;
+	background: black;
+}
+
+
+#staceskye {
+	float: left;
+	width: 100px;
+	padding: 5px;
+}
+
+section {
+	background: #222;
+	color: #0000;
+	overflow: auto;
+}
+
+nav {
+	background-color: white;
+	color: black;
+	border: 1px black solid;
+	padding: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+
+}
+
+aside {
+	background-color: #00000;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+
+article {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#wrapper {
+	background-color: #AAA;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #FFF;
+	border: 2px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #eee;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+body {
+	width: 95%;
+	text-align: justify-all;
+	background-size: cover;
+	margin:2em;
+	padding:20;
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	line-height: 1.5em;
+	overflow-x:hidden;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+
+a {
+	padding: 20px;
+}
+
+hr {
+  width: 200px;
+}
