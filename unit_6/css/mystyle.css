@@ -22,7 +22,7 @@ a:hover {
 
 h2 {
 	font-family: 'Open Sans Condensed 300', sans-serif;
-	font-kerning: 1.5;
+	font-kerning: 1.5em;
 	color: grey ;
 	font-weight: lighter;
 	padding: 20px;
@@ -31,7 +31,7 @@ h2 {
 
 h3 {
 	font-family: 'Arima Madurai', sans-serif;
-	font-kerning: 1.5;
+	font-kerning: 1.5em;
 	color: grey ;
 	font-weight: bolder;
 	font-size: 28px;
@@ -147,10 +147,3 @@ ul {
     text-align: left;
     list-style-type: none;
 
-a {
-	padding: 20px;
-}
-
-hr {
-  width: 200px;
-}
