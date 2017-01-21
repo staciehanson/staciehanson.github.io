@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans+Condensed:300');
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "left";
+    clear: both;
+    height: 0;
+}
+
+h1 {
+	font-family: 'Arima Madurai', cursive;
+	color: darkgrey ;
+	font-size: 4em;
+	line-height: 8px;
+}
+
+
+h2 {
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	font-kerning: 1.5em;
+	color: grey ;
+	font-weight: lighter;
+	padding: 10px;
+	font-size: 3em;
+
+}
+
+h3 {
+	font-family: 'Arima Madurai', sans-serif;
+	font-kerning: 1.5em;
+	color: grey ;
+	font-weight: bolder;
+	font-size: 2em;
+	padding: 30px;
+
+}
+
+header {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 40px;
+	text-align: center;
+	max-width: 90%;
+}
+
+nav {
+  font-size: 22px;
+  float: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+  display: inline-block;
+}
+
+img {
+	display:block;
+	max-width: 100%;
+	margin: 0 auto;
+    opacity: 0.75;
+    filter: alpha(opacity=50);
+}
+
+#inchbeach {
+	display: block;
+	max-width: 100%;
+	margin: 0;
+	background: black;
+}
+
+
+section {
+	background: #222;
+	color: #0000;
+	overflow: auto;
+	max-width: 100%
+}
+
+aside {
+	background-color: #00000;
+	border: 1px black solid;
+	padding: 20px;
+	max-width: 70%;
+}
+
+
+
+article {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+	max-width: 70%;
+
+}
+
+footer {
+	background-color: black;
+	color: white;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#wrapper {
+	background-color: #AAA;
+	border: 1px black solid;
+	padding: 10px;
+	max-width: 100%;
+}
+
+#two_column {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 10px;
+	float: none;
+	max-width: 100%;
+}
+
+#left {
+	background-color: #eee;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	width: 50%;
+}
+
+#right {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	width: 50%;
+}
+
+
+body {
+	width: 95%;
+	text-align: center;
+	background-size: cover;
+	margin: 2em;
+	padding: 20;
+	font-family: 'Open Sans Condensed 300', sans-serif;
+	line-height: 1.5em;
+	overflow-x:hidden;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+
+@media only screen and (max-width: 800px) {
+     nav {
+		float: none;
+	}
+
+	nav a {
+		margin: 0 1.6em .75em 0;
+	}
+
+  #inchbeach {
+  	max-width: 320px
+  }
+
+  #left {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+
+img {
+	max-width: 320px;
+}
+  #right {
+  	font-size: 1.4em;
+  	line-height: 1.8em;
+  }
+
+section {
+  	float: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+	 h1, nav {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px
+    float: none;
+  }
+  
+
+  h2 {
+  	font-size: 1em;
+  	display: inline;
+  }
+  
+    p, ul {
+    margin: 1.8em .6em 0;
+  }
+
+  li {
+  	width: 80%;
+  	outline-width: .5em;
+  	padding: .5em;
+  	    height: 2em;
+    line-height: 2em;
+  }
+  
+    nav a {
+    margin: 0 1em 1em;
+  }
+  
+    img {
+    width: 230px;
+  }
+  
+  section, div {
+    width: 80%;
+    padding: .6em;
+  }
+  
+  aside {
+  	float: none;
+  }
+
+    #right {
+    float: none;
+    font-size: 1.4em;
+  }
+}
